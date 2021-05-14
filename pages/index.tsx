@@ -1,15 +1,25 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Head from "next/head";
+import Image from "next/image";
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
-  </Layout>
-)
+const Home = () => {
+  return (
+    <div>
+      <Head>
+        <title>Mateusz Dettlaff - Home</title>
+        <meta name="description" content="Mateusz Dettlaff Personal Website" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="h-40 w-40 relative">
+        <Image
+          src={"/images/md.png"}
+          alt="Picture of the author"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-full"
+        />
+      </div>
+    </div>
+  );
+};
 
-export default IndexPage
+export default Home;
