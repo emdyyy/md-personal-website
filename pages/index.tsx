@@ -6,7 +6,6 @@ const Home = () => {
       <Head>
         <title>Mateusz Dettlaff - Home</title>
         <meta name="description" content="Mateusz Dettlaff Personal Website" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className="font-gilroy-bold text-primary text-5xl">coming soon...</h1>
     </div>

@@ -7,6 +7,7 @@ function PersonalWebsite({ Component, pageProps }: any) {
       <Head>
         <link href="/fonts/gilroy-extrabold.otf" rel="stylesheet" />
         <link href="/fonts/gilroy-light.otf" rel="stylesheet" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>
