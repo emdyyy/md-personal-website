@@ -4,13 +4,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-      'gilroy-bold': ['Gilroy ExtraBold', 'sans-serif'],
-      'gilroy-light': ['Gilroy Light', 'sans-serif']
+      'gilroy': ['Gilroy', 'sans-serif'],
       },
       colors: {
         primary: {
-          DEFAULT: '#152F4A'
+          DEFAULT: '#152F4A',
+          light: '#7088A2'
         },
+        secondary: {
+          DEFAULT: '#95A5A6'
+        }
       }
     },
   },
