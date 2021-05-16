@@ -12,13 +12,24 @@ module.exports = {
           light: '#7088A2'
         },
         secondary: {
-          DEFAULT: '#95A5A6'
+          DEFAULT: '#95A5A6',
+          light: '#F9F9F9',
+          border: '#C1C1C1'
+        },
+        success: {
+          DEFAULT: '#2ecc71'
+        },
+        error: {
+          DEFAULT: '#e74c3c'
         }
       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderColor: ['disabled'],
+      textColor: ['disabled'],
+    },
   },
   plugins: [],
 }

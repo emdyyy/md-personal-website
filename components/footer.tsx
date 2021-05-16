@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <nav className="fixed inset-x-0 bottom-0">
+      <nav className="fixed inset-x-0 bottom-0 w-1/4">
         <ul className="flex space-x-7 m-3 font-gilroy text-secondary text-lg">
           <li>
             <a

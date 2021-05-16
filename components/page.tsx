@@ -12,7 +12,7 @@ const Page = (props: any) => {
         <meta name="description" content={desc} />
       </Head>
       <Logo />
-      <Navbar />
+      <Navbar {...props} />
       {children}
       <Footer />
     </>
