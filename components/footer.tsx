@@ -21,7 +21,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://www.instagram.com/deam03/"
+              href="https://www.instagram.com/em.dy7/"
               className="hover:text-primary transition-all ease-in-out duration-400"
             >
               insta
